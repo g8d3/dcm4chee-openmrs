@@ -1,0 +1,16 @@
+- content_for :head do
+  == css 'css/root.css'
+  script src='js/root.js'
+.openmrs-logo
+.dcm4che-logo
+.tabs
+  ul
+    li
+      a href="#config" Configuration
+    li
+      a href="#more" More
+  #config
+    == text 'OpenMRS url', 'openmrs_url', 'example localhost:8080/openmrs'
+    == text 'dcm4chee url', 'dcm4chee_url', 'example localhost:8089/dcm4chee-web3/'
+  #more
+    p More options

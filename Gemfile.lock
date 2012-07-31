@@ -1,0 +1,40 @@
+GIT
+  remote: https://github.com/juanpastas/sinatra.git
+  revision: b18310f73635c063410f53885c74c08f3b5bb273
+  specs:
+    sinatra (1.4.0)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.3.3)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    multi_json (1.3.6)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    slim (1.2.2)
+      temple (~> 0.4.0)
+      tilt (~> 1.3.3)
+    stylus (0.6.2)
+      execjs
+      stylus-source
+    stylus-source (0.28.2)
+    temple (0.4.0)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  coffee-script
+  sinatra!
+  slim
+  stylus

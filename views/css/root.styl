@@ -1,0 +1,27 @@
+@import 'lib/grid'
+total-width = 100%
+
+img(url, height = 100px)
+  background-image url(url)
+  background-size contain
+  background-repeat no-repeat
+  height height
+
+.openmrs-logo
+  img '/img/openmrs_logo.svg'
+  column 6
+
+.dcm4che-logo
+  img '/img/dcm4che_logo.gif'
+  column 6
+
+body > *
+  column 12
+
+a:hover
+  cursor pointer
+
+#config
+ overflow overlay
+ & > *
+   column 6
